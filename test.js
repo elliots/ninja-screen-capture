@@ -28,6 +28,8 @@ d.emit = function(channel, value) {
         value.emit = function(channel, value) {
             console.log('Device.emit', channel, value);
         };
+
+        driver.write(1);
     }
 };
 

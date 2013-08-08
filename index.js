@@ -26,7 +26,7 @@ function Device(app) {
   this.writeable = false;
   this.readable = true;
   this.V = 0;
-  this.D = 1004;
+  this.D = 256;
   this.G = 'ScreenCapture';
   this.name = 'Screen Capture - ' + require('os').hostname();
 
